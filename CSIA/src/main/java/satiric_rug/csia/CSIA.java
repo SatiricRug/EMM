@@ -30,7 +30,7 @@ public class CSIA {
 		
 		ModBlocks.init();
 		
-		LogHelper.info("Pre initialization complete!kewkjfrwkjwgwg;lj");
+		LogHelper.info("Pre initialization complete!");
 	}
 	
 	@Mod.EventHandler
@@ -41,7 +41,7 @@ public class CSIA {
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		LogHelper.info("Post initialization complete!");
+		LogHelper.info("Post initialization complete!asddfsdfsadfsdfs");
 	}
 	
 }
