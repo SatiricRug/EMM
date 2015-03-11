@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Peter.Helen-Lenovo/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.1.1335/snapshot/20141130/forgeSrc-1.8-11.14.1.1335.jar" sourcepath="C:/Users/Peter.Helen-Lenovo/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.1.1335/snapshot/20141130/forgeSrc-1.8-11.14.1.1335-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Peter.Helen-Lenovo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar" sourcepath="C:/Users/Peter.Helen-Lenovo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/c6682b8a47ddd9f29108838aed0dc8e0ffdedf68/log4j-api-2.0-beta9-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
