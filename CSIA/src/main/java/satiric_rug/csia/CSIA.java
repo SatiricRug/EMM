@@ -41,7 +41,7 @@ public class CSIA {
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		LogHelper.info("Post initialization complete!asddfsdfsadfsdfs");
+		LogHelper.info("Post initialization complete!");
 	}
 	
 }
