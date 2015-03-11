@@ -1,5 +1,5 @@
 # CSIA
-Minecraft Mod for IB Computer Science Internal Assessment
+This is a minecraft mod for my IB Computer Science Internal Assessment
 
 If you're reading this, don't :P
 
