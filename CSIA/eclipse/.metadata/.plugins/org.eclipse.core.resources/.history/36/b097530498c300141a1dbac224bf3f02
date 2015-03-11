@@ -1,0 +1,9 @@
+package satiric_rug.iamod.reference;
+
+public class Refrence {
+	
+	public static final String MOD_ID = "IAMod";
+	public static final String MOD_NAME = "IA Mod";
+	public static final String MOD_VERSION = "1.8-1.0";
+	
+}

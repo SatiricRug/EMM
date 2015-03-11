@@ -1,0 +1,12 @@
+package satiric_rug.csia.block;
+
+import net.minecraft.block.Block;
+
+public class BlockCSIA {
+	
+	public static Block BlockPortal;
+	
+	public static void init() {
+		
+	}
+}

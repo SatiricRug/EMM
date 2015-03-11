@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPostInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="satiric_rug.iamod.proxy.IProxy"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="satiric_rug.iamod.config.ConfigHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.event.ConfigChangedEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.IModGuiFactory"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.config.GuiConfig"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.ConfigElement"/>
+<fullyQualifiedTypeName name="satiric_rug.iamod.handler.ConfigHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.FMLLog"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Level"/>
+<fullyQualifiedTypeName name="satiric_rug.iamod.reference.Reference"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.utility.LogHelper"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.FMLCommonHandler"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.handler.ConfigHandler"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockPortal"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.reference.Reference"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.block.BlockCSIA"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.block.BlockPortal"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.init.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.ITileEntityProvider"/>
+<fullyQualifiedTypeName name="net.minecraft.world.IBlockAccess"/>
+<fullyQualifiedTypeName name="net.minecraft.util.BlockPos"/>
+<fullyQualifiedTypeName name="net.minecraft.tileentity.TileEntity"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.tileentity.TileEntityPortal"/>
+<fullyQualifiedTypeName name="satiric_rug.csia.proxy.CommonProxy"/>
+</qualifiedTypeNameHistroy>

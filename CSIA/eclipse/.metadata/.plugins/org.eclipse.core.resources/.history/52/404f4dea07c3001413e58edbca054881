@@ -1,0 +1,8 @@
+package satiric_rug.iamod;
+
+import net.minecraftforge.fml.common.Mod;
+
+@Mod(modid = IAMod.MODID, version = )
+public class IAMod {
+	public static 
+}

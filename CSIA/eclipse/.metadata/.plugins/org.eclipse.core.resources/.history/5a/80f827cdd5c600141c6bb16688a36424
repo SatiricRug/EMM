@@ -1,0 +1,9 @@
+package satiric_rug.csia.item;
+
+public class BlockPortal extends ItemCSIA {
+	
+	public BlockPortal() {
+		super();
+		this.setBlockName("portal");
+	}
+}

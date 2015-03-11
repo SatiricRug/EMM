@@ -1,0 +1,32 @@
+package satiric_rug.iamod.config;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigHandler {
+	
+	public static Configuration config;
+	
+	public static void init(File configFile) {
+		config = new Configuration(configFile);
+		boolean configValue = false;
+		
+		try {
+			//load config file
+			config.load();
+			
+			//read in properties from config file
+			configValue = config.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example config value").getBoolean(true);
+		} catch (Exception e) {
+			
+		} finally {
+			//save config file
+			if (config.hasChanged()) {
+				config.save();
+			}
+		}
+		
+		System.out.println(configValue);
+	}
+}

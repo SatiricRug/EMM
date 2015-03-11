@@ -1,0 +1,11 @@
+package satiric_rug.iamod.reference;
+
+public class Reference {
+	
+	public static final String MOD_ID = "IAMod";
+	public static final String MOD_NAME = "IA Mod";
+	public static final String MOD_VERSION = "1.8-1.0";
+	public static final String CLIENT_PROXY_CLASS = "satiric_rug.iamod.proxy.ClientProxy";
+	public static final String SERVER_PROXY_CLASS = "satiric_rug.iamod.proxy.ServerProxy";
+	
+}

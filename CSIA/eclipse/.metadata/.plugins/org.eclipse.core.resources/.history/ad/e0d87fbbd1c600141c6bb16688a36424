@@ -1,0 +1,17 @@
+package satiric_rug.csia.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockCSIA extends Block {
+	
+	protected BlockCSIA(Material materialIn) {
+		super(materialIn);
+	}
+
+	public static Block BlockPortal;
+	
+	public static void init() {
+		
+	}
+}

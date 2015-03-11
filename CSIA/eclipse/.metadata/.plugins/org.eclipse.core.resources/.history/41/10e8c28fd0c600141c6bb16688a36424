@@ -1,0 +1,8 @@
+package satiric_rug.csia.block;
+
+public class BlockCSIA {
+	
+	public static void init() {
+		
+	}
+}

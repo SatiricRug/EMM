@@ -1,0 +1,37 @@
+package satiric_rug.csia.handler;
+
+import java.io.File;
+
+import satiric_rug.csia.reference.Reference;
+import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.fml.client.event.ConfigChangedEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+public class ConfigHandler {
+	
+	public static Configuration config;
+	public static boolean testValue = false;
+	
+	public static void init(File configFile) {
+		
+		if (config == null) {
+			config = new Configuration(configFile);
+		}
+	}
+	
+	@SubscribeEvent
+	public void onConfigChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event) {
+		
+		if (event.modID.equalsIgnoreCase(Reference.MOD_ID)) {
+			loadConfig();
+		}
+	}
+	
+	public void loadConfig() {
+		testValue = config.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example config value");
+		
+		if (config.hasChanged()) {
+			config.save();
+		}
+	}
+}

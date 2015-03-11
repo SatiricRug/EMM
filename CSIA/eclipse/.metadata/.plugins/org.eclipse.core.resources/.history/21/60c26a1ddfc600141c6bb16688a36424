@@ -1,0 +1,5 @@
+package satiric_rug.csia.tileentity;
+
+public class TileEntityPortal {
+
+}

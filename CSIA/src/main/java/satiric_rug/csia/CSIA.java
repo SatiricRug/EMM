@@ -30,7 +30,7 @@ public class CSIA {
 		
 		ModBlocks.init();
 		
-		LogHelper.info("Pre initialization complete!");
+		LogHelper.info("Pre initialization complete!kewkjfrwkjwgwg;lj");
 	}
 	
 	@Mod.EventHandler

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "IAMod",
+  "name": "IA Mod",
+  "description": "This is a mod developed for Peter Schinske's Computer Science IA.",
+  "version": "1.0",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Peter Schinske (AKA satiric_rug)"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

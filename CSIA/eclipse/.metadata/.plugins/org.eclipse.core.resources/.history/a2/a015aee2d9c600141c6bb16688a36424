@@ -1,0 +1,6 @@
+package satiric_rug.csia.init;
+
+public class ModBlocks {
+
+	public static final BlockPortal portal = new BlockPortal();
+}

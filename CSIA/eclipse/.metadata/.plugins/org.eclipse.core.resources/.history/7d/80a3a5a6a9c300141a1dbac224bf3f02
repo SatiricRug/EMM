@@ -1,0 +1,38 @@
+package satiric_rug.csia;
+
+import satiric_rug.csia.handler.ConfigHandler;
+import satiric_rug.csia.proxy.IProxy;
+import satiric_rug.csia.reference.Reference;
+import satiric_rug.csia.utility.LogHelper;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+public class IAMod {
+	
+	@Mod.Instance(Reference.MOD_ID)
+	public static CSIA instance;
+	
+	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+	public static IProxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		ConfigHandler.init(event.getSuggestedConfigurationFile());
+		LogHelper.info("Pre initialization complete!");
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent event) {
+		LogHelper.info("Initialization complete!");
+	}
+	
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		LogHelper.info("Post initialization complete!");
+	}
+	
+}

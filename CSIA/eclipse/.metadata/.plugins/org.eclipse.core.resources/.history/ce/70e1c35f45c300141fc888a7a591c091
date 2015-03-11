@@ -1,0 +1,35 @@
+package satiric_rug.iamod;
+
+import satiric_rug.iamod.proxy.IProxy;
+import satiric_rug.iamod.refrence.Refrence;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Refrence.MOD_ID, name = "IA Mod", version = "1.8-1.0" )
+public class IAMod {
+	
+	@Mod.Instance("IAMod")
+	public static IAMod instance;
+	
+	@SidedProxy(clientSide = "satiric_rug.iamod.proxy.ClientProxy", serverSide = "satiric_rug.iamod.proxy.ServerProxy")
+	public static IProxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent event) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		
+	}
+	
+}

@@ -1,0 +1,8 @@
+package satiric_rug.iamod;
+
+import net.minecraftforge.fml.common.Mod;
+
+@Mod(modid = "IAMod", name = "IA Mod", version = "1.8-1.0" )
+public class IAMod {
+	 
+}

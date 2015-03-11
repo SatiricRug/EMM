@@ -1,0 +1,5 @@
+package satiric_rug.csia.proxy;
+
+public abstract class CommonProxy implements IProxy {
+	
+}
