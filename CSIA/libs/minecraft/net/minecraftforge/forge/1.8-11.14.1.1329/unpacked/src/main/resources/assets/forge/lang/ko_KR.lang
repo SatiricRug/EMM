@@ -1,0 +1,59 @@
+#X-Generator: crowdin.com
+commands.forge.usage=/Forge <subcommand>를 사용하세요. 하위 명령은 tps 과 track 입니다
+commands.forge.usage.tracking=/forge track <유형><기간>을 사용하세요. 사용할 수 있는 유형들\: (Tile Entities). <기간>은 60 이하여야 합니다. 
+commands.forge.tps.summary=%s \: 1틱당 평균 시간\: %d ms. 평균 TPS\: %d
+
+commands.forge.tracking.te.enabled=타일 엔터티 추적이 %d초 동안 활성화 되었습니다.
+forge.texture.preload.warning=경고\: 텍스쳐 %s가 미리 로드되지 않았습니다, 렌더링 오류가 발생할 것입니다\!
+forge.client.shutdown.internal=내부 서버를 종료합니다...
+forge.update.newversion=사용가능한 새로운 포지 버전\: %s
+forge.update.beta.1=%s주의\: %s포지 베타버전
+forge.update.beta.2=주요 문제 발생, 보고하기 전에 확인해 주세요
+
+forge.configgui.forgeConfigTitle=마인크래프트 포지 구성
+forge.configgui.ctgy.forgeGeneralConfig.tooltip=This is where you can edit the settings contained in forge.cfg.
+forge.configgui.ctgy.forgeGeneralConfig=일반 설정
+forge.configgui.ctgy.forgeChunkLoadingConfig.tooltip=This is where you can edit the settings contained in forgeChunkLoading.cfg.
+forge.configgui.ctgy.forgeChunkLoadingConfig=Forge Chunk Loader Default Settings
+forge.configgui.ctgy.forgeChunkLoadingModConfig.tooltip=This is where you can define mod-specific override settings that will be used instead of the defaults.
+forge.configgui.ctgy.forgeChunkLoadingModConfig=Mod Overrides
+forge.configgui.ctgy.forgeChunkLoadingAddModConfig.tooltip=Allows you to define mod-specific settings that will override the defaults. A value of zero in either entry effectively disables any chunkloading capabilities for that mod.
+forge.configgui.ctgy.forgeChunkLoadingAddModConfig=+ Add New Mod Override
+
+forge.configgui.biomeSkyBlendRange.tooltip=Control the range of sky blending for colored skies in biomes.
+forge.configgui.biomeSkyBlendRange=Biome Sky Blend Range
+forge.configgui.clumpingThreshold.tooltip=Controls the number threshold at which Packet51 is preferred over Packet52.
+forge.configgui.clumpingThreshold=Packet Clumping Threshold
+forge.configgui.disableVersionCheck.tooltip=Set to true to disable Forge's version check mechanics. Forge queries a small json file on our server for version information. For more details see the ForgeVersion class in our github.
+forge.configgui.disableVersionCheck=Disable Forge Version Check
+forge.configgui.enableGlobalConfig=Enable Global Config
+forge.configgui.forceDuplicateFluidBlockCrash.tooltip=Set this to true to force a crash if more than one block attempts to link back to the same Fluid.
+forge.configgui.forceDuplicateFluidBlockCrash=Force Dupe Fluid Block Crash
+forge.configgui.fullBoundingBoxLadders.tooltip=Set this to true to check the entire entity's collision bounding box for ladders instead of just the block they are in. Causes noticeable differences in mechanics so default is vanilla behavior.
+forge.configgui.fullBoundingBoxLadders=Full Bounding Box Ladders
+forge.configgui.removeErroringEntities.tooltip=Set this to true to remove any Entity that throws an error in its update method instead of closing the server and reporting a crash log. BE WARNED THIS COULD SCREW UP EVERYTHING USE SPARINGLY WE ARE NOT RESPONSIBLE FOR DAMAGES.
+forge.configgui.removeErroringEntities=Remove Erroring Entities
+forge.configgui.removeErroringTileEntities.tooltip=Set this to true to remove any TileEntity that throws an error in its update method instead of closing the server and reporting a crash log. BE WARNED THIS COULD SCREW UP EVERYTHING USE SPARINGLY WE ARE NOT RESPONSIBLE FOR DAMAGES.
+forge.configgui.removeErroringTileEntities=Remove Erroring Tile Entities
+forge.configgui.sortRecipies.tooltip=Set to true to enable the post initialization sorting of crafting recipes using Forge's sorter. May cause desyncing on conflicting recipies. MUST RESTART MINECRAFT IF CHANGED FROM THE CONFIG GUI.
+forge.configgui.sortRecipies=Sort Recipes
+forge.configgui.zombieBabyChance.tooltip=Chance that a zombie (or subclass) is a baby. Allows changing the zombie spawning mechanic.
+forge.configgui.zombieBabyChance=Zombie Baby Chance
+forge.configgui.zombieBaseSummonChance.tooltip=Base zombie summoning spawn chance. Allows changing the bonus zombie summoning mechanic.
+forge.configgui.zombieBaseSummonChance=좀비 소환 확률
+forge.configgui.stencilbits=Enable GL Stencil Bits
+forge.configgui.spawnfuzz=Respawn Fuzz Diameter
+
+forge.configgui.modID.tooltip=The mod ID that you want to define override settings for.
+forge.configgui.modID=Mod ID
+forge.configgui.dormantChunkCacheSize.tooltip=Unloaded chunks can first be kept in a dormant cache for quicker loading times. Specify the size (in chunks) of that cache here.
+forge.configgui.dormantChunkCacheSize=Dormant Chunk Cache Size
+forge.configgui.enableModOverrides.tooltip=Enable this setting to allow custom per-mod settings to be defined.
+forge.configgui.enableModOverrides=Enable Mod Overrides
+forge.configgui.maximumChunksPerTicket.tooltip=This is the maximum number of chunks a single ticket can force.
+forge.configgui.maximumChunksPerTicket=Chunks Per Ticket Limit
+forge.configgui.maximumTicketCount.tooltip=This is the number of chunk loading requests a mod is allowed to make.
+forge.configgui.maximumTicketCount=Mod Ticket Limit
+forge.configgui.playerTicketCount.tooltip=The number of tickets a player can be assigned instead of a mod. This is shared across all mods and it is up to the mods to use it.
+forge.configgui.playerTicketCount=Player Ticket Limit
+
