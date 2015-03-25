@@ -7,10 +7,12 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.util.EnumFacing;
 
 public class BlockCSIADirectional extends BlockCSIA {
-    public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
+    public static PropertyDirection FACING;
 
     protected BlockCSIADirectional(Material materialIn)
     {
         super(materialIn);
+        
+        FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
     }
 }
