@@ -1,5 +1,6 @@
 package satiric_rug.csia.block;
 
+import satiric_rug.csia.reference.Names;
 import satiric_rug.csia.tileentity.TileEntityPortal;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
@@ -21,7 +22,7 @@ public class BlockPortal extends BlockCSIADirectional implements ITileEntityProv
 	
 	public BlockPortal() {
 		super(Material.air);
-		this.setUnlocalizedName("portal");
+		this.setUnlocalizedName(Names.Blocks.PORTAL);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 	}
 
@@ -61,14 +62,19 @@ public class BlockPortal extends BlockCSIADirectional implements ITileEntityProv
 	public void setBlockBoundsBasedOnState(IBlockAccess worldIn, BlockPos pos) {
 		EnumFacing facing = (EnumFacing)worldIn.getBlockState(pos).getValue(FACING);
 		
-		float minX = 0f;
-		float minY = 0f;
-		float minZ = 0f;
-		float maxX = 0.5f;
-		float maxY = 0.5f;
-		float maxZ = 0.5f;
-		
-		this.setBlockBounds(minX, minY, minZ, maxX, maxY, maxZ);
+		if (facing == EnumFacing.DOWN) {
+			this.setBlockBounds(0f, 0f, 0f, 1f, 0f, 1f);
+		} else if (facing == EnumFacing.UP) {
+			this.setBlockBounds(0f, 1f, 0f, 1f, 1f, 1f);
+		} else if (facing == EnumFacing.NORTH) {
+			this.setBlockBounds(0f, 0f, 0f, 1f, 1f, 0f);
+		} else if (facing == EnumFacing.SOUTH) {
+			this.setBlockBounds(0f, 0f, 1f, 1f, 1f, 1f);
+		} else if (facing == EnumFacing.WEST) {
+			this.setBlockBounds(0f, 0f, 0f, 0f, 1f, 1f);
+		} else { //if facing east
+			this.setBlockBounds(1f, 0f, 0f, 1f, 1f, 1f);
+		}
 	}
 	
     public IBlockState getStateFromMeta(int meta) {
