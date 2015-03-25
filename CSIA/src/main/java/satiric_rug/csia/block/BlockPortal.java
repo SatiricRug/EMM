@@ -19,7 +19,9 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 public class BlockPortal extends BlockCSIADirectional implements ITileEntityProvider {
-	
+
+    public static PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
+    
 	public BlockPortal() {
 		super(Material.air);
 		this.setUnlocalizedName(Names.Blocks.PORTAL);
