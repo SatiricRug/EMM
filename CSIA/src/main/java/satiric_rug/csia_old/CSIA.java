@@ -1,12 +1,11 @@
-package satiric_rug.csia;
+package satiric_rug.csia_old;
 
-import satiric_rug.csia.block.BlockCSIA;
-import satiric_rug.csia.common.WorldEvents;
-import satiric_rug.csia.handler.ConfigHandler;
-import satiric_rug.csia.init.ModBlocks;
-import satiric_rug.csia.proxy.CommonProxy;
-import satiric_rug.csia.reference.Reference;
-import satiric_rug.csia.utility.LogHelper;
+import satiric_rug.csia_old.block.BlockCSIA;
+import satiric_rug.csia_old.handler.ConfigHandler;
+import satiric_rug.csia_old.init.ModBlocks;
+import satiric_rug.csia_old.proxy.CommonProxy;
+import satiric_rug.csia_old.reference.Reference;
+import satiric_rug.csia_old.utility.LogHelper;
 import net.minecraft.block.BlockPortal;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
@@ -37,8 +36,6 @@ public class CSIA {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.registerTileEntities();
-		proxy.setForcedChunkLoadingCallback(instance, new WorldEvents());
-		
 		LogHelper.info("Initialization complete!");
 	}
 	
