@@ -10,16 +10,16 @@ import net.minecraft.util.EnumFacing;
 
 public class BlockCSIADirectional extends BlockCSIA {
 
-    public BlockCSIADirectional(Material materialIn)
-    {
-        super(materialIn);
-        
-        FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
-    }
-    
-    public BlockCSIADirectional() {
-    	super();
-    	
-    	FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
-    }
+//    public BlockCSIADirectional(Material materialIn)
+//    {
+//        super(materialIn);
+//        
+//        FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
+//    }
+//    
+//    public BlockCSIADirectional() {
+//    	super();
+//    	
+//    	FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
+//    }
 }

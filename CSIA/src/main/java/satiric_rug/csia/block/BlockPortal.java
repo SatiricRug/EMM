@@ -18,7 +18,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class BlockPortal extends BlockCSIADirectional implements ITileEntityProvider {
+public class BlockPortal extends BlockCSIA implements ITileEntityProvider {
 
     public static PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
     
