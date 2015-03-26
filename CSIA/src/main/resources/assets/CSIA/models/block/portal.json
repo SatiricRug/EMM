@@ -1,6 +1,6 @@
 {   
     "textures": {
-        "all": "csia:blocks/portal"
+        "all": "csia:textures/blocks/portal"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

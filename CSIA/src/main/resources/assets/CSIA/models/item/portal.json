@@ -1,5 +1,5 @@
 {
-    "parent": "csia:block/portal",
+    "parent": "csia:/textures/blocks/portal",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

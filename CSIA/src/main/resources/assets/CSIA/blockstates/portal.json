@@ -1,5 +1,10 @@
 {
     "variants": {
-        "normal": { "model": "portal" }
+        "facing=up": { "model": "portal" },
+        "facing=down": { "model": "portal", "x": 180 },
+        "facing=east": { "model": "portal", "x": 90, "y": 90 },
+        "facing=west": { "model": "portal", "x": 90, "y": 270 },
+        "facing=south": { "model": "portal", "x": 90, "y": 180 },
+        "facing=north": { "model": "portal", "x": 90}
     }
 }
