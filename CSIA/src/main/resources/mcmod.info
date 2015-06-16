@@ -1,9 +1,9 @@
 [
 {
-  "modid": "CSIA",
-  "name": "Mod for IB Computer Science IA",
+  "modid": "EMM",
+  "name": "Educational Minecraft Mod",
   "description": "This is a mod developed for Peter Schinske's Computer Science IA.",
-  "version": "Alpha 1.0",
+  "version": "Beta 1.0",
   "mcversion": "1.8",
   "url": "",
   "updateUrl": "",

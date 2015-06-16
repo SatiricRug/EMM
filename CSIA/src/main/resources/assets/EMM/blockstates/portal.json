@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=down": { "model": "emm:portal", "x": 180 },
+        "facing=east": { "model": "emm:portal", "x": 90, "y": 90 },
+        "facing=north": { "model": "emm:portal", "x": 90},
+        "facing=south": { "model": "emm:portal", "x": 90, "y": 180 },
+        "facing=up": { "model": "emm:portal" },
+        "facing=west": { "model": "emm:portal", "x": 90, "y": 270 }
+    }
+}
