@@ -14,8 +14,8 @@ public class TileEntityPortal extends TileEntity {
 	public static final String publicName = "tileEntityPortal";
 	private String name = "tileEntityPortal";
 	
-	//BlockPos of linked portal (the "other side" of the portal). DEBUG: set to current position plus 20 in x direction
-	private BlockPos linkedBlockPos =  new BlockPos(this.getPos().getX() , this.getPos().getY() + 4, this.getPos().getZ());
+	//BlockPos of linked portal (the "other side" of the portal).
+	private BlockPos linkedBlockPos =  new BlockPos(this.getPos().getX() , this.getPos().getY(), this.getPos().getZ());
 	
 	
 	
