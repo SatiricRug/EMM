@@ -1,10 +1,6 @@
 # CSIA
-This is a minecraft mod for my IB Computer Science Internal Assessment
+This is a Minecraft mod for my IB Computer Science Internal Assessment
 
-If you're reading this, don't :P
+I really wish this was private but it can't be, so please don't distribute this.
 
-But srsly, this probably isn't really of any use to you.
-
-So go on.
-
-Good *day* sir.
+--"My name is Ozymandias, King of Kings: Look upon my works, ye Mighty, and despair!"
